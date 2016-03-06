@@ -50,11 +50,11 @@ function getComputerMove(move) {
 function getWinner(playerMove,computerMove) {
     var winner;
 
-    if (playerMove === 'Rock') {
-      if (computerMove === 'Scissors') {
+    if (playerMove === 'rock') {
+      if (computerMove === 'scissors') {
         winner = 'player';
       }
-      else if (computerMove === 'Paper') {
+      else if (computerMove === 'paper') {
         winner = 'computer';
       }
       else {
@@ -62,11 +62,11 @@ function getWinner(playerMove,computerMove) {
       }
     }
 
-    if (playerMove === 'Paper') {
-      if (computerMove === 'Rock') {
+    if (playerMove === 'paper') {
+      if (computerMove === 'rock') {
         winner = 'player';
       }
-      else if (playermove === 'Scissors') {
+      else if (playermove === 'scissors') {
         winner = 'computer';
       }
       else {
@@ -74,11 +74,11 @@ function getWinner(playerMove,computerMove) {
       }
     }
 
-    if (playerMove === 'Scissors') {
-      if (computerMove === 'Paper') {
+    if (playerMove === 'scissors') {
+      if (computerMove === 'paper') {
         winner = 'player';
       }
-      else if (computerMove === 'Rock') {
+      else if (computerMove === 'rock') {
         winner = 'computer';
       }
       else {
